@@ -1537,11 +1537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lyam/Documents/WORKSPACE/CleanCodeTesting/Poker/TestPoker/TestPoker.csproj",
+      "projectUniqueName": "/Users/lyam/Documents/WORKSPACE/Exam1CleanCode/TestPoker/TestPoker.csproj",
       "projectName": "TestPoker",
-      "projectPath": "/Users/lyam/Documents/WORKSPACE/CleanCodeTesting/Poker/TestPoker/TestPoker.csproj",
+      "projectPath": "/Users/lyam/Documents/WORKSPACE/Exam1CleanCode/TestPoker/TestPoker.csproj",
       "packagesPath": "/Users/lyam/.nuget/packages/",
-      "outputPath": "/Users/lyam/Documents/WORKSPACE/CleanCodeTesting/Poker/TestPoker/obj/",
+      "outputPath": "/Users/lyam/Documents/WORKSPACE/Exam1CleanCode/TestPoker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lyam/.nuget/NuGet/NuGet.Config"
@@ -1556,8 +1556,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/lyam/Documents/WORKSPACE/CleanCodeTesting/Poker/Poker/Poker.csproj": {
-              "projectPath": "/Users/lyam/Documents/WORKSPACE/CleanCodeTesting/Poker/Poker/Poker.csproj"
+            "/Users/lyam/Documents/WORKSPACE/Exam1CleanCode/Poker/Poker.csproj": {
+              "projectPath": "/Users/lyam/Documents/WORKSPACE/Exam1CleanCode/Poker/Poker.csproj"
             }
           }
         }
