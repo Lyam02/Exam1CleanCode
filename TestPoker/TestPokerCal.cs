@@ -19,11 +19,20 @@ public class Tests
         new TestCaseData(
             new[]
             {
+                new[] { 2, 3, 2, 9, 9 },
+                new[] { 6, 7, 8, 9, 9 },
+                new[] { 6, 7, 8, 7, 8 }
+            },
+            26),
+        
+        new TestCaseData(
+            new[]
+            {
                 new[] { 2, 2, 2, 9, 9 },
                 new[] { 6, 7, 8, 9, 9 },
                 new[] { 6, 7, 8, 7, 8 }
             },
-            26) 
+            47),
     ];
 
     [TestCaseSource(nameof(Cases))]
@@ -33,6 +42,7 @@ public class Tests
 
         var result = pokerCal.combinaisonCal(card);
         
-        Assert.Pass();
+        // j'avais oublié de changer le Asert.Pass, c'est corrigé et ca fonctionne, désolé pour les autre commit
+        Assert.That(result, Is.EqualTo(expected));
     }
 }
