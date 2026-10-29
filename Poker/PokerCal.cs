@@ -4,6 +4,8 @@ public class PokerCal
 {
     public int combinaisonCal(int[][] card)
     {
-        return 27;
+        int somme = card.Select(main => main.Max()).Sum();
+        
+        return somme;
     }
 }

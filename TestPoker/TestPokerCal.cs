@@ -14,7 +14,16 @@ public class Tests
                 new[] { 6, 7, 8, 9, 9 },
                 new[] { 6, 7, 8, 9, 9 }
             },
-            27)
+            27), // le 27 c'est le resultat voulu au cas ou
+        
+        new TestCaseData(
+            new[]
+            {
+                new[] { 2, 2, 2, 9, 9 },
+                new[] { 6, 7, 8, 9, 9 },
+                new[] { 6, 7, 8, 7, 8 }
+            },
+            26) 
     ];
 
     [TestCaseSource(nameof(Cases))]
