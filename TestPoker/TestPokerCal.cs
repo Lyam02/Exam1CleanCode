@@ -33,6 +33,15 @@ public class Tests
                 new[] { 6, 7, 8, 7, 8 }
             },
             47),
+        
+        new TestCaseData(
+            new[]
+            {
+                new[] { 2, 3, 4, 5, 6 },
+                new[] { 6, 7, 8, 9, 9 },
+                new[] { 6, 7, 8, 7, 8 }
+            },
+            57),
     ];
 
     [TestCaseSource(nameof(Cases))]
